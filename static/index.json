@@ -1,6 +1,7 @@
 {
   "ret": true,
   "data": {
+    "city": "北京",
     "slider": [
       {"id": "001",
         "link": "",
@@ -20,10 +21,128 @@
         "id": "004",
         "link": "",
         "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/36/3a9377867a25d302.jpg_640x200_094f883a.jpg"
+      },
+      {
+        "id": "005",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/36/3a9377867a25d302.jpg_640x200_094f883a.jpg"
+      },
+      {
+        "id": "006",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/36/3a9377867a25d302.jpg_640x200_094f883a.jpg"
+      },
+      {
+        "id": "007",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1801/36/3a9377867a25d302.jpg_640x200_094f883a.jpg"
       }
     ],
     "icons": [
-      
-    ]
+      {
+        "id": "001",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "002",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "国家深林公园"
+      },
+      {
+        "id": "003",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "004",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "005",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "tip": "深林公园"
+      },
+      {
+        "id": "006",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "007",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/54/ace00878a52d9702.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "008",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "深林公园"
+      },
+      {
+        "id": "009",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "故宫"
+      },
+      {
+        "id": "010",
+        "link": "",
+        "imgUrl": "http://img1.qunarzz.com/piao/fusion/1611/35/2640cab202c41b02.png",
+        "tip": "深林公园"
+      }
+    ],
+    "sights": [
+      {
+        "id": "001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      },
+      {
+        "id": "002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      },
+      {
+        "id": "003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      },
+      {
+        "id": "004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      },
+      {
+        "id": "005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      },
+      {
+        "id": "006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_140x140_80f63803.jpg",
+        "title": "故宫",
+        "dis": "东方建筑代表",
+        "price": "80"
+      }
+  ]
   }
 }

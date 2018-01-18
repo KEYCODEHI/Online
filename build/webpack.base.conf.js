@@ -42,6 +42,16 @@ module.exports = {
     }
   },
   module: {
+    loaders: [
+      {
+        test: /\.(jsx|js)$/,
+        loader: 'babel-loader',
+        exclude: /node_modules/,
+        query: {
+          presets: ['react', 'es2015', 'stage-0']
+        }
+      }
+    ],
     rules: [
       ...(config.dev.useEslint ? [createLintingRule()] : []),
       {

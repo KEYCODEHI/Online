@@ -7,7 +7,11 @@
         请输入城市/景点/游玩主题
       </div>
     </div>
-    <div class="city">{{city}}</div>
+    <div class="city">
+      <router-link class="city-to" to="/city">
+        {{city}}
+      </router-link>
+    </div>
   </div>
 </template>
 
@@ -54,6 +58,8 @@ export default {
       overflow: hidden
       text-overflow: ellipsis
       white-space: nowrap
+      .city-to
+        color: white
       &::before
         content: '\0020'
         position: absolute

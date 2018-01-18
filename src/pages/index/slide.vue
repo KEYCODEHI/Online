@@ -1,6 +1,6 @@
 <template>
   <div>
-    <swiper class="banner index-banner" :options="swiperOption" v-if="slides.length">
+    <swiper class="banner index-banner" :options="swiperOption">
       <swiper-slide v-for="item of slides" :key="item.id">
         <img class="banner-img" :src="item.imgUrl" alt="">
       </swiper-slide>
@@ -18,18 +18,17 @@ export default {
   data () {
     return {
       swiperOption: {
-        autoplay: 1000,
-        pagination: '.swiper-pagination',
-        loop: true
+        autoplay: 5000,
+        pagination: '.swiper-pagination'
       }
     }
   }
 }
 </script>
 
-<style lang="stylus">
+<style lang="stylus" scoped>
   @import '../../assets/styles/common/varibles'
-  .index-banner >>> .index-pagination-bullet
+  .swiper-pagination >>> .swiper-pagination-bullet-active
     background: #fff
   .banner
     over-flow: hidden
