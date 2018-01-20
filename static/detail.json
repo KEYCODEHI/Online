@@ -1,0 +1,121 @@
+{
+  "ret": true,
+  "data": {
+    "swiperList": [
+      {
+        "id": "1001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_800x800_04f227ef.jpg"
+      },
+      {
+        "id": "1002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p55/201211/04/fbcab3e5d6479ce893835fbb.jpg_800x800_3f52b8da.jpg"
+      },
+      {
+        "id": "1003",
+        "imgUrl": "http://img1.qunarzz.com/wugc/p123/201211/19/a2045d091f02b25493835fbb.png_800x800_5e80fcc3.png"
+      },
+      {
+        "id": "1004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/34/f540a04367d06820af4dfeaf0ad40257.water.jpg_800x800_d7cec880.jpg"
+      }
+    ],
+    "containerList": [
+      {"id": "2001",
+        "tip1": "故宫当日票",
+        "tip2": [
+          {"bill": "【当日票】 故宫成人票", "doll": "40"},
+          {"bill": "【当日票】 故宫学生票","doll": "20"},
+          {"bill": "【当日票】 故宫老人票","doll": "20"}
+        ],
+        "tipOther": [
+          {"bill": "【当日票】 故宫全家福", "doll": "288"},
+          {"bill": "【当日票】 故宫组团票","doll": "400"}
+        ],
+        "add": "凭借身份证入园"
+      },
+      {"id": "2002",
+        "tip1": "故宫成人票",
+        "tip2": [
+          {"bill": "上午场","doll": "40"},
+          {"bill": "下午场","doll": "40"},
+          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
+        ],
+        "add": "凭借身份证入园"
+      },
+      {"id": "2003",
+        "tip1": "故宫学生票",
+        "tip2": [
+          {"bill": "上午场","doll": "40"},
+          {"bill": "下午场","doll": "40"},
+          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
+        ],
+        "add": "凭借身份证入园"
+      },
+      {"id": "2004",
+        "tip1": "故宫老年票",
+        "tip2": [
+          {"bill": "上午场","doll": "40"},
+          {"bill": "下午场","doll": "40"},
+          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
+        ],
+        "add": "凭借身份证入园"
+      },
+      {"id": "2005",
+        "tip1": "热销产品组合",
+        "tip2": [
+          {"bill": "【上午场】成人票+故宫全景手绘地图","doll": "40"},
+          { "bill": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）","doll": "80"},
+          {"bill": "故宫+钟表馆+珍宝馆","doll":"60"}
+        ],
+        "tipOther": [
+          {"bill": "【推荐】故宫深度游必选组合","doll": "80"},
+          {"bill": "上午场成人票+自助导览器","doll":"40"}
+        ],
+        "add": "凭借身份证入园"
+      },
+      {"id": "2006",
+        "tip1": "自助导航器",
+        "tip2": [
+          {"bill": "中午版","doll": "40"},
+          {"bill": "下午版","doll": "40"}
+        ],
+        "add": "免押金"
+
+      },
+      {"id": "2007",
+        "tip1": "一日游",
+        "tip2": [
+          {"bill": "【去哪儿推荐】天安门广场+故宫+八达岭长城1日游","doll": "66"},
+          {"bill": "【北京出发】故宫+颐和园+清华北大1日游","doll": "66"}
+        ],
+        "add": "精选版"
+      }
+    ],
+    "commentList": [
+      {"name": "KR",
+        "data": "2018-01-13",
+        "txt": "参观故宫是来京必须要安排的行程，紫禁城的宏伟和惊艳超乎你想象，假装自己穿越时空，你走在乾隆皇帝走过的石板砖上，体验当年盛世的文化底蕴和奢华的生活～ 攻略1 提前网上购买门票，凭身份证直接进 攻略2 租讲解器，每个讲解器都是感应的，每个只讲解一遍，只有一个耳机，别想着两人共用的好事儿，哈哈哈 攻略3 周一闭馆，周末人居多，尽量安排工作日，若所有宫殿都想参观，就提早进去，不过我个人觉得没必要，参观代表性的中轴和个别妃子和慈禧的宫殿即可，建议预留至少大半天时间在里头 再来北京，还愿意去故宫~~",
+          "img": [
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg"},
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg_228x168_836f5a9f.jpg" },
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg_228x168_9b1dfb71.jpg"}
+          ]
+        },
+      {"name": "XJ",
+        "data": "2018-01-13",
+        "txt": "整整玩了一天，就这还没逛完这座世界上最伟大最大最完整最震撼的宫殿。取票方便，刷身份证就可以直接进，不排队，游客服务中心提供热水和电视充电插座，点赞！里面的珍宝太多，几天几夜都看不完，票价只要六十块太值了！徜徉在长长红墙下你会感觉时空穿越，物我两忘。就是几座大殿的中间不让围观拍照，只能从侧面看。",
+          "img": [
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg"},
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg_228x168_836f5a9f.jpg" },
+            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg_228x168_9b1dfb71.jpg"}
+          ]
+        }
+    ],
+    "moreList": [
+      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "天南门广场", "doll": "20", "address": "北京·西城区"},
+      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "北京杜莎蜡像馆", "doll": "88", "address": "北京·前门大街"},
+      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "天坛公园", "doll": "50", "address": "北京·东城区"},
+      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "书立方/鸟巢", "doll": "220", "address": "北京·奥林匹克公园"}
+    ]
+    }
+}
