@@ -1,15 +1,16 @@
 <template>
   <div class="search" ref="search">
-    <input class="search-searchx" type="text" @input="handleClickChange" placeholder="请输入城市名或拼音">
+    <input ref="searchInput" class="search-input" type="text" @input="handleClickChange" placeholder="请输入城市名或拼音">
     <div class="search-list-all" v-show="toggleList" ref="wrapperLi">
       <ul class="search-list">
-        <li class="show-li" v-for="(item, index) of filterResult" :key="index">{{item.name}}</li>
+        <li @click="handleClickCity(item.name)" class="show-li" v-for="(item, index) of filterResult" :key="index">{{item.name}}</li>
       </ul>
     </div>
   </div>
 </template>
 
 <script>
+import { mapMutations } from 'vuex'
 import BScroll from 'better-scroll'
 export default {
   name: 'city-search',
@@ -35,11 +36,12 @@ export default {
           })
         }
       })
-      console.log(resultCity)
+      // console.log(resultCity)
       return resultCity
     }
   },
   methods: {
+    ...mapMutations(['changeCity']),
     handleClickChange (e) {
       if (e.target.value) {
         this.toggleList = true
@@ -52,6 +54,11 @@ export default {
       } else {
         this.toggleList = false
       }
+    },
+    handleClickCity (city) {
+      this.toggleList = false
+      this.changeCity(city)
+      this.$refs.searchInput.value = ''
     }
   },
   watch: {
@@ -96,7 +103,7 @@ export default {
         // border-bottom: 1px solid #333
         color: #333
         line-height: .8rem
-    .search-searchx
+    .search-input
       display: block
       width: 100%
       height: 100%

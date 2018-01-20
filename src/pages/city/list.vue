@@ -22,10 +22,10 @@
         </div>
       </div>
       <div class="now-area" v-for="(item, index) of city" :key="index">
-        <div class="now-title">{{item.classify}}</div>
+        <div ref="listTitle" class="now-title">{{item.classify}}</div>
         <div class="now-content">
-          <div class="button-hotcity" @click="handleCityClick(item2.name)" v-for="(item2, index) of item.cityList" :key="index">
-            {{item2.name}}
+          <div class="button-hotcity" @click="handleCityClick(item.name)" v-for="(item, index) of item.cityList" :key="index">
+            {{item.name}}
           </div>
         </div>
       </div>
@@ -51,8 +51,15 @@ export default {
   methods: {
     ...mapMutations(['changeCity']),
     handleClickSkip (item, index) {
-      // console.log(item.classify)
-      list.getAttribute.transform = "transform(0, 222px)" 
+      console.log(item.classify)
+      // console.log(this.$refs.list.getAttribute('class'))
+      const listScroll = document.getElementsByClassName('list')[1]
+      const listTitle = this.$refs.listTitle[index]
+      const listTitleTop = listTitle.offsetTop
+      // console.log(listTitleTop)
+      // console.log(listScroll.getAttribute.transform)
+      console.log(listScroll.getAttribute('transform'))
+      listScroll.style.transform = 'translate(0px,' + -listTitleTop + 'px)'
     },
     handleCityClick (city, index) {
       for (var i = 0; i < this.$refs.cityChoice.length; i++) {

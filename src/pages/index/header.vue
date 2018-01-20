@@ -7,11 +7,11 @@
         请输入城市/景点/游玩主题
       </div>
     </div>
-    <div class="city">
       <router-link class="city-to" to="/city">
-        {{city}}
-      </router-link>
+        <div class="city">
+          {{city}}
     </div>
+    </router-link>
   </div>
 </template>
 
