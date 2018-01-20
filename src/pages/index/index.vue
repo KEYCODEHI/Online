@@ -35,7 +35,6 @@ export default {
   watch: {
     city () {
       this.getIndeData()
-      console.log(this.city)
     }
   },
   methods: {

@@ -18,7 +18,7 @@
       <div class="now-area">
         <div class="now-title">字母排序</div>
         <div class="now-content">
-          <div class="button-hotcity" @click="handleClickSkip(item)" v-for="(item, index) of city" :key="index">{{item.classify}}</div>
+          <div class="button-hotcity" @click="handleClickSkip(item, index)" v-for="(item, index) of city" :key="index">{{item.classify}}</div>
         </div>
       </div>
       <div class="now-area" v-for="(item, index) of city" :key="index">
@@ -50,8 +50,9 @@ export default {
   },
   methods: {
     ...mapMutations(['changeCity']),
-    handleClickSkip (item) {
-      console.log(item.classify)
+    handleClickSkip (item, index) {
+      // console.log(item.classify)
+      list.getAttribute.transform = "transform(0, 222px)" 
     },
     handleCityClick (city, index) {
       for (var i = 0; i < this.$refs.cityChoice.length; i++) {
