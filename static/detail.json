@@ -1,121 +1,730 @@
 {
   "ret": true,
   "data": {
-    "swiperList": [
-      {
-        "id": "1001",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_800x800_04f227ef.jpg"
+    "detail": {
+      "header": {
+        "id": "0001",
+        "headerTitle": "故宫"
       },
-      {
-        "id": "1002",
-        "imgUrl": "http://img1.qunarzz.com/sight/p55/201211/04/fbcab3e5d6479ce893835fbb.jpg_800x800_3f52b8da.jpg"
+      "banner": {
+        "id": "001",
+        "bannerImgtitle": "故宫(AAAAA景区)",
+        "count": "10",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg",
+        "bannerSwiperList": [
+          {
+            "id": "001",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_800x800_04f227ef.jpg",
+            "link": ""
+          },
+          {
+            "id": "002",
+            "imgUrl": "http://img1.qunarzz.com/sight/p55/201211/04/fbcab3e5d6479ce893835fbb.jpg_800x800_3f52b8da.jpg",
+            "link": ""
+          },
+          {
+            "id": "003",
+            "imgUrl": "http://img1.qunarzz.com/wugc/p180/201306/16/7f08e81624346b1693835fbb.jpg_800x800_eb941a31.jpg",
+            "link": ""
+          },
+          {
+            "id": "004",
+            "imgUrl": "http://img1.qunarzz.com/wugc/p123/201211/19/a2045d091f02b25493835fbb.png_800x800_5e80fcc3.png",
+            "link": ""
+          },
+          {
+            "id": "005",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/e3/73da8d3e19cdc41c1932d4fcd22ec792.water.jpg_800x800_ef9611de.jpg",
+            "link": ""
+          },
+          {
+            "id": "006",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/34/f540a04367d06820af4dfeaf0ad40257.water.jpg_800x800_d7cec880.jpg",
+            "link": ""
+          },
+          {
+            "id": "007",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/9d/fe8109ab5df1c9c324e74284fa802e72.water.jpg_800x800_9c516ad2.jpg",
+            "link": ""
+          },
+          {
+            "id": "008",
+            "imgUrl": "http://img1.qunarzz.com/wugc/p238/201306/16/d9090c728fed64eb93835fbb.jpg_800x800_ff912e01.jpg",
+            "link": ""
+          },
+          {
+            "id": "009",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/af/af47583adca3f972.water.jpg_800x800_66dff63e.jpg",
+            "link": ""
+          },
+          {
+            "id": "010",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/be/d44bb81ae3218a627a65ded451326b2c.water.jpg_800x800_e66340c8.jpg",
+            "link": ""
+          }
+        ]
       },
-      {
-        "id": "1003",
-        "imgUrl": "http://img1.qunarzz.com/wugc/p123/201211/19/a2045d091f02b25493835fbb.png_800x800_5e80fcc3.png"
-      },
-      {
-        "id": "1004",
-        "imgUrl": "http://img1.qunarzz.com/sight/p0/1410/34/f540a04367d06820af4dfeaf0ad40257.water.jpg_800x800_d7cec880.jpg"
-      }
-    ],
-    "containerList": [
-      {"id": "2001",
-        "tip1": "故宫当日票",
-        "tip2": [
-          {"bill": "【当日票】 故宫成人票", "doll": "40"},
-          {"bill": "【当日票】 故宫学生票","doll": "20"},
-          {"bill": "【当日票】 故宫老人票","doll": "20"}
-        ],
-        "tipOther": [
-          {"bill": "【当日票】 故宫全家福", "doll": "288"},
-          {"bill": "【当日票】 故宫组团票","doll": "400"}
-        ],
-        "add": "凭借身份证入园"
-      },
-      {"id": "2002",
-        "tip1": "故宫成人票",
-        "tip2": [
-          {"bill": "上午场","doll": "40"},
-          {"bill": "下午场","doll": "40"},
-          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
-        ],
-        "add": "凭借身份证入园"
-      },
-      {"id": "2003",
-        "tip1": "故宫学生票",
-        "tip2": [
-          {"bill": "上午场","doll": "40"},
-          {"bill": "下午场","doll": "40"},
-          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
-        ],
-        "add": "凭借身份证入园"
-      },
-      {"id": "2004",
-        "tip1": "故宫老年票",
-        "tip2": [
-          {"bill": "上午场","doll": "40"},
-          {"bill": "下午场","doll": "40"},
-          {"bill": "故宫+钟表馆+珍宝馆","doll": "60"}
-        ],
-        "add": "凭借身份证入园"
-      },
-      {"id": "2005",
-        "tip1": "热销产品组合",
-        "tip2": [
-          {"bill": "【上午场】成人票+故宫全景手绘地图","doll": "40"},
-          { "bill": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）","doll": "80"},
-          {"bill": "故宫+钟表馆+珍宝馆","doll":"60"}
-        ],
-        "tipOther": [
-          {"bill": "【推荐】故宫深度游必选组合","doll": "80"},
-          {"bill": "上午场成人票+自助导览器","doll":"40"}
-        ],
-        "add": "凭借身份证入园"
-      },
-      {"id": "2006",
-        "tip1": "自助导航器",
-        "tip2": [
-          {"bill": "中午版","doll": "40"},
-          {"bill": "下午版","doll": "40"}
-        ],
-        "add": "免押金"
-
-      },
-      {"id": "2007",
-        "tip1": "一日游",
-        "tip2": [
-          {"bill": "【去哪儿推荐】天安门广场+故宫+八达岭长城1日游","doll": "66"},
-          {"bill": "【北京出发】故宫+颐和园+清华北大1日游","doll": "66"}
-        ],
-        "add": "精选版"
-      }
-    ],
-    "commentList": [
-      {"name": "KR",
-        "data": "2018-01-13",
-        "txt": "参观故宫是来京必须要安排的行程，紫禁城的宏伟和惊艳超乎你想象，假装自己穿越时空，你走在乾隆皇帝走过的石板砖上，体验当年盛世的文化底蕴和奢华的生活～ 攻略1 提前网上购买门票，凭身份证直接进 攻略2 租讲解器，每个讲解器都是感应的，每个只讲解一遍，只有一个耳机，别想着两人共用的好事儿，哈哈哈 攻略3 周一闭馆，周末人居多，尽量安排工作日，若所有宫殿都想参观，就提早进去，不过我个人觉得没必要，参观代表性的中轴和个别妃子和慈禧的宫殿即可，建议预留至少大半天时间在里头 再来北京，还愿意去故宫~~",
-          "img": [
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg"},
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg_228x168_836f5a9f.jpg" },
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg_228x168_9b1dfb71.jpg"}
-          ]
+      "baseInfoList": [
+        {
+          "id": "001",
+          "iconLeft": "",
+          "baseInfo": "北京市东城区景山前街4号",
+          "link": "/sceneryLocationMap"
         },
-      {"name": "XJ",
-        "data": "2018-01-13",
-        "txt": "整整玩了一天，就这还没逛完这座世界上最伟大最大最完整最震撼的宫殿。取票方便，刷身份证就可以直接进，不排队，游客服务中心提供热水和电视充电插座，点赞！里面的珍宝太多，几天几夜都看不完，票价只要六十块太值了！徜徉在长长红墙下你会感觉时空穿越，物我两忘。就是几座大殿的中间不让围观拍照，只能从侧面看。",
-          "img": [
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg"},
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg_228x168_836f5a9f.jpg" },
-            {"imgSrc": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg_228x168_9b1dfb71.jpg"}
-          ]
+        {
+          "id": "002",
+          "iconLeft": "&#xe604;",
+          "baseInfo": "查看景点简介及开放时间",
+          "link": "/detailIntroduce"
         }
-    ],
-    "moreList": [
-      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "天南门广场", "doll": "20", "address": "北京·西城区"},
-      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "北京杜莎蜡像馆", "doll": "88", "address": "北京·前门大街"},
-      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "天坛公园", "doll": "50", "address": "北京·东城区"},
-      {"img": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg", "title": "书立方/鸟巢", "doll": "220", "address": "北京·奥林匹克公园"}
-    ]
+      ],
+      "commentsInfo": {
+        "id": "001",
+        "commentsScore": "5.0分",
+        "commentsCount": "175325评论"
+      },
+      "publicNoticeList": [
+        {
+          "id": "001",
+          "publicNoticeInfo": "除法定节假日，故宫博物院实行周一闭馆。"
+        }
+      ],
+      "recommendToWhere": [
+        {
+          "id": "001",
+          "ticketTitle": "【上午场】故宫成人票+故宫全景手绘地图",
+          "nextDayOrder": "可订明日",
+          "salesReturn": "不可退",
+          "priceNum": "50",
+          "reserve": "预定"
+        },
+        {
+          "id": "002",
+          "ticketTitle": "【北京深度游必选组合】天安门+故宫+恭王府/八达岭/颐和园",
+          "nextDayOrder": "可订明日",
+          "salesReturn": "不可退",
+          "priceNum": "50",
+          "reserve": "预定"
+        }
+      ],
+      "ticketAdultList": {
+        "ticketTypeTitle": "故宫成人票",
+        "ticketAdultInfo":[
+          {
+            "ticketInfoName": "上午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "39.9"
+          },
+          {
+            "ticketInfoName": "下午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "40"
+          },
+          {
+            "ticketInfoName": "故宫+珍宝馆+钟表馆",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "60"
+          }
+        ],
+        "showReservation": [
+          {
+            "id": "0000001",
+            "title": "去哪儿直销",
+            "hintTitle": "【上午场】故宫成人票凭身份证入园",
+            "hintInfoOne": "可订明日",
+            "hintInfoTwo": "条件退",
+            "price": "50",
+            "reservationBtn": "预定"
+          },
+          {
+            "id": "0000002",
+            "title": "去哪儿直销",
+            "hintTitle": "【上午场】故宫成人票凭身份证入园",
+            "hintInfoOne": "可订明日",
+            "hintInfoTwo": "条件退",
+            "price": "20",
+            "reservationBtn": "预定"
+          },
+          {
+            "id": "0000003",
+            "title": "去哪儿直销",
+            "hintTitle": "【上午场】故宫成人票凭身份证入园",
+            "hintInfoOne": "可订明日",
+            "hintInfoTwo": "条件退",
+            "price": "70",
+            "reservationBtn": "预定"
+          }
+        ]
+      },
+      "ticketStudent": {
+        "ticketTypeTitle": "故宫学生票",
+        "ticketAdultInfo":[
+          {
+            "ticketInfoName": "上午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "20"
+          },
+          {
+            "ticketInfoName": "下午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "30"
+          },
+          {
+            "ticketInfoName": "故宫+珍宝馆+钟表馆",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "60"
+          }
+        ]
+      },
+      "ticketElderly": {
+        "ticketTypeTitle": "故宫老人票",
+        "ticketAdultInfo":[
+          {
+            "ticketInfoName": "上午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "20"
+          },
+          {
+            "ticketInfoName": "下午场",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "20"
+          },
+          {
+            "ticketInfoName": "故宫+珍宝馆+钟表馆",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "30"
+          }
+        ]
+      },
+      "hotSellingGoodsList": {
+        "ticketTypeTitle": "热销组合产品",
+        "ticketAdultInfo":[
+          {
+            "ticketInfoName": "【上午场】成人票+故宫全景手绘地图",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "60"
+          },
+          {
+            "ticketInfoName": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "115"
+          },
+          {
+            "ticketInfoName": "【推荐】故宫深度游必选组合",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "66"
+          }
+        ],
+        "seeMore": [
+          {
+            "ticketInfoName": "【上午场】成人票+故宫全景手绘地图",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "60"
+          },
+          {
+            "ticketInfoName": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "115"
+          },
+          {
+            "ticketInfoName": "【推荐】故宫深度游必选组合",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "66"
+          },
+          {
+            "ticketInfoName": "【上午场】成人票+故宫全景手绘地图",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "60"
+          },
+          {
+            "ticketInfoName": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫（含故宫+珍宝馆门票）",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "115"
+          },
+          {
+            "ticketInfoName": "【推荐】故宫深度游必选组合",
+            "relyOnIdCardEnterPark": "凭身份证入园",
+            "ticketPrice": "66"
+          }
+        ]
+      },
+      "selfHelpGuideList": {
+        "selfHelpGuideTitle": "自助导览器",
+        "selfHelpGuideInfo": [
+          {
+            "chinese": "中文版",
+            "noDeposit": "免押金",
+            "price": "9.8"
+          },
+          {
+            "chinese": "英文版",
+            "noDeposit": "免押金",
+            "price": "40"
+          }
+        ]
+      },
+      "treasureAndTimekeeper": {
+        "treasureAndTimekeeper": "珍宝馆、钟表馆",
+        "treasureAndTimekeeperInfo": [
+          {
+            "adult": "珍宝馆成人票",
+            "relyOnIdCardEnterPark": "凭身份证入园，需购买午门门票",
+            "price": "10"
+          },
+          {
+            "adult": "珍宝馆学生/老人票",
+            "relyOnIdCardEnterPark": "凭身份证入园，需购买午门门票",
+            "price": "5"
+          },
+          {
+            "adult": "钟表馆成人票",
+            "relyOnIdCardEnterPark": "( 凭身份证入园，需购买午门门票 )",
+            "price": "10"
+          }
+        ]
+      },
+      "visitingGuide": {
+        "visitingGuideTitle": "故宫导游讲解",
+        "visitingGuideInfoList": [
+          {
+            "id": "001",
+            "info": "【大内御讲 9:00场】蓝琪儿格格带您穿越故宫",
+            "remark": "（不含故宫门票）",
+            "price": "50"
+          },
+          {
+            "id": "002",
+            "info": "【09:00场次】故宫讲解服务",
+            "remark": "（不含故宫门票）",
+            "price": "27"
+          },
+          {
+            "id": "001",
+            "info": "【专业讲解】北京中文导游讲解服务",
+            "remark": "（不含故宫门票）",
+            "price": "400"
+          }
+        ],
+        "seeMore": [
+          {
+            "id": "001",
+            "info": "故宫+颐和园景点导游讲解服务",
+            "remark": "（不含门票）",
+            "price": "20"
+          },
+          {
+            "id": "002",
+            "info": "景点导游讲解一票通",
+            "remark": "（含故宫+颐和园门票）",
+            "price": "110"
+          },
+          {
+            "id": "003",
+            "info": "故宫+天坛+颐和园景点导游讲解服务",
+            "remark": "（不含门票）",
+            "price": "29.9"
+          },
+          {
+            "id": "004",
+            "info": "景点导游讲解一票通",
+            "remark": "（含故宫+天坛+颐和园门票）",
+            "price": "160"
+          }
+        ]
+      },
+      "templeGift": {
+        "templeGiftTitle": "故宫礼物/老人儿童推车服务",
+        "templeGiftList": [
+          {
+            "id": "001",
+            "info":"故宫全景手绘地图",
+            "remark": "先取图，再入宫",
+            "price": "9.9"
+          },
+          {
+            "id": "002",
+            "info":"【特制】--故宫明信片",
+            "remark": "先取图，再入宫",
+            "price": "9"
+          },
+          {
+            "id": "003",
+            "info":"【特制】--故宫国旗笔",
+            "remark": "先取图，再入宫",
+            "price": "12"
+          }
+        ],
+        "seeMore": [
+          {
+            "id": "001",
+            "info":"故宫-婴儿推车出租服务",
+            "remark": "先取图，再入宫",
+            "price": "110"
+          },
+          {
+            "id": "002",
+            "info":"故宫-轮椅出租服务",
+            "remark": "先取图，再入宫",
+            "price": "160"
+          }
+        ]
+      },
+      "oneDayTour": {
+        "oneDayTourTitle": "一日游",
+        "oneDayTourList": [
+          {
+            "id": "001",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "002",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "003",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          }
+        ],
+        "seeMore": [
+          {
+            "id": "001",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "002",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "003",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "004",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "005",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "006",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "007",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "008",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "009",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "010",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "011",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "012",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "013",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "014",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "015",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "016",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "017",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "018",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "019",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "020",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "021",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "022",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "023",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          },
+          {
+            "id": "024",
+            "info":"【北京出发】故宫+恭王府+老北京胡同1日游",
+            "price": "110"
+          },
+          {
+            "id": "025",
+            "info":"【去哪儿推荐】天安门广场+故宫+八达岭长城1日游",
+            "price": "66"
+          },
+          {
+            "id": "026",
+            "info":"【北京出发】故宫+颐和园+清华北大1日游",
+            "price": "66"
+          }
+        ]
+      },
+      "userReviewsList": {
+        "userReviewsTitle": "用户评论",
+        "userReviewsInfo": [
+          {
+            "id": "001",
+            "usernameReviewsDate": "随*啊 2017-12-30",
+            "reviewContent": "参观故宫是来京必须要安排的行程，紫禁城的宏伟和惊艳超乎你想象，假装自己穿越时空，你走在乾隆皇帝走过的石板砖上，体验当年盛世的文化底蕴和奢华的生活～ 攻略1 提前网上购买门票，凭身份证直接进 攻略2 租讲解器，每个讲解器都是感应的，每个只讲解一遍，只有一个耳机，别想着两人共用的好事儿，哈哈哈 攻略3 周一闭馆，周末人居多，尽量安排工作日，若所有宫殿都想参观，就提早进去，不过我个人觉得没必要，参观代表性的中轴和个别妃子和慈禧的宫殿即可，建议预留至少大半天时间在里头 再来北京，还愿意去故宫~~"
+          },
+          {
+            "id": "002",
+            "usernameReviewsDate": "h*2 2017-11-26",
+            "reviewContent": "整整玩了一天，就这还没逛完这座世界上最伟大最大最完整最震撼的宫殿。取票方便，刷身份证就可以直接进，不排队，游客服务中心提供热水和电视充电插座，点赞！里面的珍宝太多，几天几夜都看不完，票价只要六十块太值了！徜徉在长长红墙下你会感觉时空穿越，物我两忘。就是几座大殿的中间不让围观拍照，只能从侧面看。"
+          }
+        ],
+        "userReviewsSmallImgList": [
+          {
+            "id": "001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/d6/b25ecaa4de9cc602.jpg_228x168_82abc231.jpg"
+          },
+          {
+            "id": "002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg_228x168_1ba732c7.jpg"
+          },
+          {
+            "id": "003",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg_228x168_94084b8c.jpg"
+          },
+          {
+            "id": "004",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/77/be2d29f0c73b3e02.jpg_228x168_70ced057.jpg"
+          },
+          {
+            "id": "005",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg_228x168_836f5a9f.jpg"
+          },
+          {
+            "id": "006",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg_228x168_9b1dfb71.jpg"
+          }
+        ],
+        "smallImgCount": "共9张",
+        "userReviewsSwiperImgList": [
+          {
+            "id": "001",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/d6/b25ecaa4de9cc602.jpg"
+          },
+          {
+            "id": "002",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/96/45907c4818998f02.jpg"
+          },
+          {
+            "id": "003",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/e7/dd88426980ca2502.jpg"
+          },
+          {
+            "id": "004",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/77/be2d29f0c73b3e02.jpg"
+          },
+          {
+            "id": "005",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/48/5eb720d741e7ee02.jpg"
+          },
+          {
+            "id": "006",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/15/dc5c35eeecc02602.jpg"
+          },
+          {
+            "id": "007",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/22/056757828f8aad02.jpg"
+          },
+          {
+            "id": "008",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/9f/df856485bc36fa02.jpg"
+          },
+          {
+            "id": "009",
+            "imgUrl": "http://img1.qunarzz.com/piao/fusion/1711/b1/0b4172aa6d0e4702.jpg"
+          }
+        ]
+      },
+      "someoneElseRecommend": {
+        "someoneElseRecommendTitle": "看了该景点的人还看了",
+        "someoneElseRecommendList": [
+          {
+            "id": "001",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/f4/f467729126949c3a.water.jpg_228x168_3df8efda.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          },
+          {
+            "id": "002",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_228x168_ec8547e9.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          },
+          {
+            "id": "003",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1707/2a/2a0adbeebf6d18bba3.water.jpg_228x168_f7881dc4.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          },
+          {
+            "id": "004",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1602/92/920e47352552c1c990.water.jpg_228x168_bf40890b.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          },
+          {
+            "id": "005",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_228x168_cafb44f3.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          },
+          {
+            "id": "006",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_228x168_8bb97036.jpg",
+            "link": "",
+            "recommendInfoTitle": "天安门广场",
+            "recommendInfoPrice": "20",
+            "recommendInfoPriceHint": "起",
+            "iconEvaluateCount": "20293条评论",
+            "position": "北京·东城区"
+          }
+        ]
+      },
+      "footerDetailInfo": {
+        "floorOneInfo":[
+          {
+            "id": "001",
+            "icon": "&#xe602;",
+            "info": "机票"
+          },
+          {
+            "id": "002",
+            "icon": "&#xe602;",
+            "info": "酒店"
+          },
+          {
+            "id": "003",
+            "icon": "&#xe602;",
+            "info": "公寓"
+          },
+          {
+            "id": "004",
+            "icon": "&#xe602;",
+            "info": "更多"
+          }
+        ],
+        "floorTwoInfo":[
+          {
+            "id": "001",
+            "info": "登陆"
+          },
+          {
+            "id": "002",
+            "info": "我的订单"
+          },
+          {
+            "id": "003",
+            "info": "我的浏览"
+          },
+          {
+            "id": "004",
+            "info": "关于我们"
+          }
+        ],
+        "floorThreeInfo":[
+          {
+            "id": "001",
+            "info": "触屏版"
+          },
+          {
+            "id": "002",
+            "info": "电脑板"
+          }
+        ],
+        "floorFourInfo":[
+          {
+            "id": "001",
+            "infoLeft": "Qunar 京ICP备05021087",
+            "infoRight": "意见反馈"
+          }
+        ]
+      }
     }
+  }
 }

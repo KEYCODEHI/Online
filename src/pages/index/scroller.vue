@@ -1,18 +1,20 @@
 <template>
   <div ref="scroller">
     <div class="content">
-      <div class="item" v-for="item in sights" :key="item.id">
-        <img class="scroll-img" v-lazy="item.imgUrl" alt="">
-        <div>
-          <p class="item-title">{{item.title}}</p>
-          <p class="item-des">{{item.dis}}</p>
-          <p class="item-price">
-            <span class="price-tag">&yen;</span>
-            {{item.price}}
-            <span class="price-start">起</span>
-          </p>
+      <router-link to="/detail">
+        <div class="item" v-for="item in sights" :key="item.id">
+          <img class="scroll-img" v-lazy="item.imgUrl" alt="">
+          <div>
+            <p class="item-title">{{item.title}}</p>
+            <p class="item-des">{{item.dis}}</p>
+            <p class="item-price">
+              <span class="price-tag">&yen;</span>
+              {{item.price}}
+              <span class="price-start">起</span>
+            </p>
+          </div>
         </div>
-      </div>
+      </router-link>
     </div>
   </div>
 </template>

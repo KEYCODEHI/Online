@@ -22,6 +22,9 @@ Vue.use(VueLazyload, {
   attempt: 1
 })
 
+const bus = new Vue()
+Vue.prototype.$bus = bus
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
